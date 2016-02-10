@@ -30,7 +30,7 @@ module.exports = function (app) {
       // If the number translated to a valid date, continue
       if (date.getMonth()) {
         var reply = {
-          "unixtime": time,
+          "unixtime": parseInt(time),
           "natural": months[date.getMonth().toString()] + " " + date.getDate() + ", " + date.getFullYear()
         };
       }
