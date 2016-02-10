@@ -14,6 +14,11 @@ http://host:8080/February%209,%202016
 http://host:8080/1454994000000
 ```
 
+If an invalid date string or number is entered, the service will return null values:
+```
+{"unixtime":null,"natural":null}
+```
+
 ###### References:
 ###### https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse
 ###### Built upon Clementine.js:
