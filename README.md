@@ -11,6 +11,7 @@ This service returns a JSON-formatted timestamp for the supplied date:
 Query the service with either a valid JavaScript date string or a number representing Unix epoch time:
 ```
 http://host:8080/February%209,%202016
+http://127.0.0.1:8080/February 9, 2016
 http://host:8080/1454994000000
 ```
 
