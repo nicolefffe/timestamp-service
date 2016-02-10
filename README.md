@@ -1,6 +1,20 @@
 # timestamp-service
 
-Free Code Camp Timestamp Microservice Project
+## Free Code Camp Timestamp Microservice Project
 
 
-This project is built upon Clementine.js (https://github.com/johnstonbl01/clementinejs-fcc.git)
+This service returns a JSON-formatted timestamp for the supplied date:
+```
+{"unixtime":1454994000000,"natural":"February 9, 2016"}
+```
+
+Query the service with either a valid JavaScript date string or a number representing Unix epoch time:
+```
+http://host:8080/February%209,%202016
+http://host:8080/1454994000000
+```
+
+###### References:
+###### https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse
+###### Built upon Clementine.js:
+###### https://github.com/johnstonbl01/clementinejs.git

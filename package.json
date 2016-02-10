@@ -2,21 +2,21 @@
   "name": "timestamp-service",
   "version": "1.0.0",
   "description": "Free Code Camp Timestamp Microservice Project",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/nicolefffe/timestamp-service.git"
   },
   "author": "Nicole Ferguson",
   "license": "MIT",
   "bugs": {
     "url": ""
   },
-  "homepage": "",
+  "homepage": "server.js",
   "dependencies": {
     "dotenv": "^2.0.0",
     "express": "^4.13.4",
