@@ -10,9 +10,9 @@ This service returns a JSON-formatted timestamp for the supplied date:
 
 Query the service with either a valid JavaScript date string or a number representing Unix epoch time:
 ```
-http://host:8080/February%209,%202016
-http://host:8080/February 9, 2016
-http://host:8080/1454994000000
+https://murmuring-crag-64497.herokuapp.com/February%209,%202016
+https://murmuring-crag-64497.herokuapp.com/February 9, 2016
+https://murmuring-crag-64497.herokuapp.com/1454994000000
 ```
 
 If an invalid date string or number is entered, the service will return null values:
